@@ -1,0 +1,6 @@
+{
+  "name": "鳥海山サイクルエコシステム",
+  "description": "秋田県由利本荘市・にかほ市を結ぶ、鳥海山ナショナルサイクルルート（NCR）構想とサイクルツーリズムの推進サイト。科学的な野生動物データ分析、おもてなし人情マップ、インタラクティブ標高シミュレータ等のオリジナルコンテンツを搭載。",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
