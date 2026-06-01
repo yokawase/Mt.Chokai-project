@@ -66,10 +66,10 @@ export default function App() {
               </div>
               <div>
                 <span className="font-extrabold text-base text-slate-800 block leading-tight tracking-tight">
-                  Mt.鳥海自転車活用推進協議会
+                  Mt.BS Project
                 </span>
                 <span className="text-[9px] text-slate-500 uppercase tracking-widest font-mono block">
-                  Mt. Chokai Bicycle Promotion Council
+                  Mt. Bird Sea Bicycle Promotion Project
                 </span>
               </div>
             </div>
@@ -580,7 +580,7 @@ export default function App() {
 
           <div className="border-t border-slate-800 pt-8 flex flex-col md:flex-row justify-between items-center text-[11px] text-slate-500 gap-4 font-mono">
             <div>
-              &copy; 2026 Mt.Bird Seaサイクルエコシステム推進会議 / Mt.鳥海自転車活用推進協議会. All Rights Reserved.
+              &copy; 2026 Mt.Bird Seaサイクルエコシステム推進会議 / Mt.BS Project. All Rights Reserved.
             </div>
             <div className="flex gap-2">
               <span>秋田・由利地域・にかほ広域連携</span>
