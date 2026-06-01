@@ -197,29 +197,30 @@ export default function App() {
             initial={{ opacity: 0, y: 15 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.1 }}
-            className="text-4xl md:text-6xl font-black mb-4 leading-tight tracking-tight border-none"
+            className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black mb-6 leading-tight tracking-tight border-none"
           >
-            鳥海の風を感じて、<br/>
-            最高のヒルクライムを。
+            鳥海山ナショナルサイクルルート。<br />
+            それは、町と人、命と未来を結ぶ「ライフライン」。
           </motion.h2>
 
           <motion.p
             initial={{ opacity: 0, y: 15 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.2 }}
-            className="text-lg md:text-xl text-blue-100 max-w-2xl mb-6 leading-relaxed"
+            className="text-base sm:text-lg md:text-2xl font-bold mb-6 text-green-300 max-w-4xl leading-relaxed"
           >
-            出羽富士「鳥海山」の裾野に広がる日本海とブナ原生林。市町村の境界を越え、おばちゃんたちのお茶っこの温もりを背に受けて走る、心躍る長距離ラリーを。
+            〜市町村の壁を越え、鳥海山を巡る軌跡が、地方創生の新たな大動脈となる〜
           </motion.p>
 
           <motion.p
             initial={{ opacity: 0, y: 15 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.3 }}
-            className="text-xs text-slate-300 max-w-xl mb-8 leading-relaxed italic"
+            className="text-xs sm:text-sm text-slate-300 max-w-xl mb-8 leading-relaxed italic"
           >
             シャカシャカ、とチェーンが鳴る。にかほの潮風から、由利本荘の街道へ。<br/>
-            持続可能な日本の未来を紡ぎ出す、一漕ぎのあたたかなアドベンチャーが始まります。
+            きらきらと光るブナの森を抜け、おばちゃんたちのお茶っこの温もりを背に受けて。<br/>
+            境界を越える一漕ぎが、あたたかな地方の未来を紡ぎ出します。
           </motion.p>
 
           <motion.div
