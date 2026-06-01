@@ -75,10 +75,10 @@ export default function CampaignBoard() {
               <Award className="w-3.5 h-3.5" /> 参加型・超広域ラリー
             </span>
             <h3 className="text-3xl font-bold tracking-tight text-white">
-              鳥海山ナショナルサイクルルート<br/>推進サポーター署名
+              Mt.Bird Seaナショナルサイクルルート<br/>推進サポーター署名
             </h3>
             <p className="text-slate-400 text-sm mt-3 mb-6 leading-relaxed">
-              鳥海山サイクルエコシステムの推進、並びに山形・秋田広域連携による「ナショナルサイクルルート（NCR）」の指定認定を応援する推進署名です。あなたの応援の一言が、まちの未来へ動き出す力となります。
+              Mt.Bird Seaサイクルエコシステムの推進、並びに山形・秋田広域連携による「ナショナルサイクルルート（NCR）」の指定認定を応援する推進署名です。あなたの応援の一言が、まちの未来へ動き出す力となります。
             </p>
 
             {/* カウンター */}
@@ -220,7 +220,7 @@ export default function CampaignBoard() {
             </div>
 
             <div className="mt-4 pt-3 border-t border-slate-900 text-[10px] text-center text-slate-500 font-mono">
-              鳥海山サイクルアライアンス推進委員会 事務局 (平成28年〜令和8年継続中)
+              Mt.Bird Seaサイクルアライアンス推進委員会 事務局 (平成28年〜令和8年継続中)
             </div>
           </div>
         </div>

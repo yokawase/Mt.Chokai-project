@@ -7,7 +7,7 @@
   --font-mono: "JetBrains Mono", monospace;
 }
 
-/* 豊かな日本の四季と、鳥海山の大自然を象徴するカラーテーマ */
+/* 豊かな日本の四季と、Mt.Bird Seaの大自然を象徴するカラーテーマ */
 html {
   scroll-behavior: smooth;
   font-family: var(--font-sans);

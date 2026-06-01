@@ -19,7 +19,7 @@ export default function SafetyCharts() {
         title: '極めて危険（薄暮・活動ピーク）',
         color: 'text-red-500 bg-red-500/10 border-red-500/20',
         badge: 'bg-red-600 text-white',
-        desc: `${hour}時台は、学術解析（階層ベイズ）より特定されたクマの「猛烈な活動ピーク」に合致しています。鳥海山麓や由利・東由利の林道・山間路をこの時間帯に自転車で走行することは、極力お控えください。特に深いカーブや川沿いは遭遇リスクが跳ね上がります。`
+        desc: `${hour}時台は、学術解析（階層ベイズ）より特定されたクマの「猛烈な活動ピーク」に合致しています。Mt.Bird Sea麓や由利・東由利の林道・山間路をこの時間帯に自転車で走行することは、極力お控えください。特に深いカーブや川沿いは遭遇リスクが跳ね上がります。`
       };
     } else if (count >= 15) {
       return {
@@ -245,11 +245,11 @@ export default function SafetyCharts() {
               </div>
               <div className="bg-slate-900 p-2.5 rounded-lg border border-slate-800">
                 <span className="font-bold text-orange-400 block">4. スプレー・ホイッスル携行</span>
-                遭遇率の高い鳥海山ブルーラインを登る必須アセンブリ。
+                遭遇率の高いMt.Bird Seaブルーラインを登る必須アセンブリ。
               </div>
             </div>
             <p className="text-[10px] text-slate-500 text-center pt-2 leading-relaxed">
-              鳥海山サイクルエコシステムは、科学的データをもって、持続可能かつ安全な「サイクル文化」を推奨します。
+              Mt.Bird Seaサイクルエコシステムは、科学的データをもって、持続可能かつ安全な「サイクル文化」を推奨します。
             </p>
           </div>
 

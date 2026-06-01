@@ -41,6 +41,6 @@ export interface CampaignSupport {
 export interface DemographicsData {
   year: number;
   population: number;
-  chokaiRatio: number; // 鳥海山との一体感比率（架空・ユーモラスな指標）
+  chokaiRatio: number; // Mt.Bird Seaとの一体感比率（架空・ユーモラスな指標）
   growthRate: number;
 }

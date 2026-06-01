@@ -35,7 +35,7 @@ export default function App() {
   const faqs = [
     {
       q: 'ナショナルサイクルルート（NCR）とは何ですか？',
-      a: '国土交通省が創設した、日本を代表し、世界に誇りうるサイクリングルートを国が認定する制度です。代表例として「つくば霞ヶ浦りんりんロード」や「ビワイチ（琵琶湖）」などがあり、鳥海山周辺もその水準に到達するための環境・サポート網の整備を推進しています。'
+      a: '国土交通省が創設した、日本を代表し、世界に誇りうるサイクリングルートを国が認定する制度です。代表例として「つくば霞ヶ浦りんりんロード」や「ビワイチ（琵琶湖）」などがあり、Mt.Bird Sea周辺もその水準に到達するための環境・サポート網の整備を推進しています。'
     },
     {
       q: '初心者でも走れる安全なルートは本当にありますか？',
@@ -199,7 +199,7 @@ export default function App() {
             transition={{ duration: 0.7, delay: 0.1 }}
             className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black mb-6 leading-tight tracking-tight border-none"
           >
-            鳥海山ナショナルサイクルルート。<br />
+            Mt.Bird Seaナショナルサイクルルート。<br />
             それは、町と人、命と未来を結ぶ「ライフライン」。
           </motion.h2>
 
@@ -209,7 +209,7 @@ export default function App() {
             transition={{ duration: 0.7, delay: 0.2 }}
             className="text-base sm:text-lg md:text-2xl font-bold mb-6 text-green-300 max-w-4xl leading-relaxed"
           >
-            〜市町村の壁を越え、鳥海山を巡る軌跡が、地方創生の新たな大動脈となる〜
+            〜市町村の壁を越え、Mt.Bird Seaを巡る軌跡が、地方創生の新たな大動脈となる〜
           </motion.p>
 
           <motion.p
@@ -306,7 +306,7 @@ export default function App() {
                 ウェルビーイングへの貢献
               </h3>
               <p className="text-slate-600 text-sm leading-relaxed mb-4">
-                適度な有酸素運動は体とメンタルを健康にします。都会の喧騒、日々の重圧を、鳥海高原の広大な風と、美味しいあきたこまちのエネルギーで、軽やかにデトックスします。
+                適度な有酸素運動は体とメンタルを健康にします。都会の喧騒、日々の重圧を、Mt.Bird Sea高原の広大な風と、美味しいあきたこまちのエネルギーで、軽やかにデトックスします。
               </p>
               <div className="text-slate-400 text-xs font-serif italic">
                 「ハァ、フゥ。汗のその先に、海が見える感動がある。生きている、という確かな手応え。」
@@ -326,7 +326,7 @@ export default function App() {
               INTERACTIVE RIDE PLATFORM
             </span>
             <h2 className="text-3xl md:text-4xl font-black text-slate-900 mt-1 tracking-tight">
-              鳥海バーチャルペダリング
+              Mt.Bird Seaバーチャルペダリング
             </h2>
             <div className="w-12 h-1 bg-emerald-500 mx-auto mt-3 rounded-full"></div>
             <p className="text-slate-500 text-xs mt-3 max-w-xl mx-auto">
@@ -370,16 +370,16 @@ export default function App() {
                 由利本荘市・にかほ市を含む由利地域は、深刻な人口減少・少子化に直面しています。行政的な境界線に縛られ、単独で縮小するアタッチメント型の悲観論に終止符を打ちましょう。
               </p>
               <p className="text-slate-500 text-sm mt-3 leading-relaxed">
-                私たちは指定過疎地域ではなく、世界の「課題先進地域」です。サイクルツーリズムは、市町村の垣根を軽やかに超え、同じ「鳥海山の伏流水を分け合うアライアンス」としてのポテンシャルを最大化します。
+                私たちは指定過疎地域ではなく、世界の「課題先進地域」です。サイクルツーリズムは、市町村の垣根を軽やかに超え、同じ「Mt.Bird Seaの伏流水を分け合うアライアンス」としてのポテンシャルを最大化します。
               </p>
 
               {/* ユーモラスでポジティブなバッジ */}
               <div className="bg-emerald-50 border border-emerald-100 p-4 rounded-2xl mt-6">
-                <h5 className="font-bold text-emerald-900 text-sm flex items-center gap-1">
+                <h5 className="font-bold text-emerald-950 text-sm flex items-center gap-1">
                   <Sparkles className="w-4 h-4 text-emerald-500" /> 特異な住民データ（鳥海一体化レシオ）
                 </h5>
                 <p className="text-xs text-emerald-700 mt-1 leading-relaxed">
-                  総人口が減少しても、<strong>由利本荘・にかほ住民の「鳥海山と自転車への愛着比率」は、2011年の72%から2026年現在は92%へと急上昇。</strong>地域のアイデンティティは益々熱く一体化しています。
+                  総人口が減少しても、<strong>由利本荘・にかほ住民の「Mt.Bird Seaと自転車への愛着比率」は、2011年の72%から2026年現在は92%へと急上昇。</strong>地域のアイデンティティは益々熱く一体化しています。
                 </p>
               </div>
             </div>
@@ -440,7 +440,7 @@ export default function App() {
                     <Bar
                       yAxisId="right"
                       dataKey="chokaiRatio"
-                      name="鳥海山との一体感比率 (%)"
+                      name="Mt.Bird Seaとの一体感比率 (%)"
                       fill="#10b981"
                       radius={[4, 4, 0, 0]}
                     />
@@ -523,7 +523,7 @@ export default function App() {
             <span className="font-mono text-slate-500">2026.05.31</span>
           </div>
           <p className="flex-grow hover:underline cursor-pointer">
-            鳥海山ナショナルサイクルルート（NCR）指定へ向けた秋田・山形超広域サイクルスタンプラリー2026が始動しました。詳細マップ配布中です。
+            Mt.Bird Seaナショナルサイクルルート（NCR）指定へ向けた秋田・山形超広域サイクルスタンプラリー2026が始動しました。詳細マップ配布中です。
           </p>
           <div className="flex gap-2">
             <span className="bg-slate-200 px-3 py-1 rounded text-slate-600 uppercase text-[9px]">まごころ通信</span>
@@ -542,7 +542,7 @@ export default function App() {
                   <Bike className="w-4 h-4" />
                 </div>
                 <span className="font-extrabold text-sm text-white tracking-tight">
-                  鳥海山サイクルエコシステム推進会議
+                  Mt.Bird Seaサイクルエコシステム推進会議
                 </span>
               </div>
               <p className="max-w-md text-slate-400 leading-relaxed text-[11px]">
@@ -573,14 +573,14 @@ export default function App() {
                 おことわり / 安全事項
               </h5>
               <p className="text-slate-500 leading-relaxed text-[10px]">
-                鳥海山麓は自然が豊かであり、天候の急変や寒暖差、野生動物の急な飛び出しが起こる場合があります。安全装備、水分補給、安全ガイドランをご確認の上、万全の体調でライドをお楽しみください。
+                Mt.Bird Sea麓は自然が豊かであり、天候の急変や寒暖差、野生動物の急な飛び出しが起こる場合があります。安全装備、水分補給、安全ガイドランをご確認の上、万全の体調でライドをお楽しみください。
               </p>
             </div>
           </div>
 
           <div className="border-t border-slate-800 pt-8 flex flex-col md:flex-row justify-between items-center text-[11px] text-slate-500 gap-4 font-mono">
             <div>
-              &copy; 2026 鳥海山サイクルエコシステム推進会議 / Mt.鳥海自転車活用推進協議会. All Rights Reserved.
+              &copy; 2026 Mt.Bird Seaサイクルエコシステム推進会議 / Mt.鳥海自転車活用推進協議会. All Rights Reserved.
             </div>
             <div className="flex gap-2">
               <span>秋田・由利地域・にかほ広域連携</span>
